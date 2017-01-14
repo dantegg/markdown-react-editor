@@ -1,0 +1,59 @@
+.editor-button{
+    width:90%;
+    margin:0 auto;
+    border-left:1px solid #ccc;
+    border-top:1px solid #ccc;
+    border-right:1px solid #ccc;
+    color:#aaa;
+}
+
+.editor-button i{
+    font-size:20px;
+}
+
+.editor-button div{
+    padding:10px 11px 10px 11px;
+    cursor:pointer;
+    display:inline-block;
+}
+
+.editor-button div:hover{
+    background:#eee;
+}
+
+.editor-button div:hover i{
+    color:#2483D2
+}
+
+.editor-main{
+    width:90%;
+    margin:0 auto;
+    border:1px solid #ccc;
+    height:500px;
+    display:flex
+}
+
+.editor-main-left{
+    display:inline-block;
+    height:498px;
+    border:1px solid #ccc;
+    width:50%;
+}
+
+.editor-main-right {
+    display: inline-block;
+    height: 498px;
+    border: 1px solid #ccc;
+    width: 50%;
+    background:#f6f6f6;
+    overflow: scroll;
+}
+
+.editor-main-left-text {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    border: none;
+    resize: none;
+    outline: none;
+}
