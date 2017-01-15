@@ -1,5 +1,5 @@
 .editor-button{
-    width:90%;
+    width:95%;
     margin:0 auto;
     border-left:1px solid #ccc;
     border-top:1px solid #ccc;
@@ -26,7 +26,7 @@
 }
 
 .editor-main{
-    width:90%;
+    width:95%;
     margin:0 auto;
     border:1px solid #ccc;
     height:500px;
@@ -36,17 +36,16 @@
 .editor-main-left{
     display:inline-block;
     height:498px;
-    border:1px solid #ccc;
     width:50%;
 }
 
-.editor-main-right {
+.markdown-body {
     display: inline-block;
     height: 498px;
-    border: 1px solid #ccc;
+    border-left: 1px solid #ccc;
     width: 50%;
     background:#f6f6f6;
-    overflow: scroll;
+    overflow: auto;
 }
 
 .editor-main-left-text {
